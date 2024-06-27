@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Consultoria Informatica</string>
+    <string name="save">Salvar</string>
+    <string name="client_first_name_hint">Primeiro Nome</string>
+    <string name="client_last_name_hint">Sobrenome</string>
+    <string name="client_cpf_hint">CPF</string>
+    <string name="client_address_hint">Endereço</string>
+    <string name="contract_client_id_hint">ID do Cliente</string>
+    <string name="contract_start_date_hint">Data de Início</string>
+    <string name="contract_end_date_hint">Data de Término</string>
+
+    <!-- Strings para o fragment_relatorio -->
+    <string name="report_title_hint">Título</string>
+    <string name="report_summary_hint">Resumo</string>
+    <string name="report_text_hint">Texto</string>
+    <string name="report_author_id_hint">ID do Autor</string>
+    <string name="report_public">Público</string>
+    <string name="report_private">Privado</string>
+    <string name="button_save_report">Salvar Relatório</string>
+
+    <!-- Strings para o fragment_acesso_relatorio -->
+    <string name="access_report_number_hint">Número de Acesso</string>
+    <string name="access_report_client_id_hint">ID do Cliente</string>
+    <string name="access_report_id_hint">ID do Relatório</string>
+    <string name="access_report_date_hint">Data de Acesso</string>
+    <string name="button_save_access">Salvar Acesso</string>
+
+    <!-- Strings para o fragment_autor -->
+    <string name="author_first_name_hint">Primeiro Nome</string>
+    <string name="author_last_name_hint">Sobrenome</string>
+    <string name="author_anonymous">Anônimo</string>
+    <string name="button_save_author">Salvar Autor</string>
+
+    <!-- Strings para os fragments gerais -->
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_delete">Deletar</string>
+    <string name="button_search">Pesquisar</string>
+
+    <!-- Strings do Menu -->
+    <string name="menu_home">Início</string>
+    <string name="menu_report">Relatórios</string>
+    <string name="menu_author">Autores</string>
+    <string name="menu_client">Clientes</string>
+    <string name="menu_contract">Contratos</string>
+    <string name="menu_access">Acessos</string>
+
+    <!-- Mensagens -->
+    <string name="msg_save_success">Salvo com sucesso</string>
+    <string name="msg_save_failure">Falha ao salvar</string>
+    <string name="msg_delete_success">Deletado com sucesso</string>
+    <string name="msg_delete_failure">Falha ao deletar</string>
+
+    <!-- Strings para o fragment_autor corrigidas -->
+    <string name="author_label">Autor</string>
+    <string name="author_name_label">Nome do Autor</string>
+    <string name="author_lastname_label">Sobrenome do Autor</string>
+    <string name="database_register">Registrar</string>
+    <string name="database_update">Atualizar</string>
+    <string name="database_remove">Remover</string>
+    <string name="database_list">Listar</string>
+
+    <!-- Strings para o fragment_initial_page -->
+    <string name="app_text">Texto do Aplicativo</string>
+    <string name="app_description">Descrição do Aplicativo</string>
+</resources>

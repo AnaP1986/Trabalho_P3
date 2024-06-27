@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemReport"
+        android:title="Relatório" />
+    <item
+        android:id="@+id/itemAuthor"
+        android:title="Autor" />
+    <item
+        android:id="@+id/itemClient"
+        android:title="Cliente" />
+    <item
+        android:id="@+id/itemContract"
+        android:title="Contrato" />
+    <item
+        android:id="@+id/itemAccess"
+        android:title="Acesso" />
+</menu>

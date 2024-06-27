@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextRelatorioTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título" />
+
+    <EditText
+        android:id="@+id/editTextRelatorioResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resumo" />
+
+    <EditText
+        android:id="@+id/editTextRelatorioTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Texto" />
+
+    <TextView
+        android:id="@+id/textViewRelatorioOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonRelatorioRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar" />
+
+    <Button
+        android:id="@+id/buttonRelatorioUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atualizar" />
+
+    <Button
+        android:id="@+id/buttonRelatorioRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remover" />
+
+    <Button
+        android:id="@+id/buttonRelatorioList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar" />
+
+</LinearLayout>

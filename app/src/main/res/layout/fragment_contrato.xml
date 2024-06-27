@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextContractStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contract_start_date_hint" />
+
+    <EditText
+        android:id="@+id/editTextContractEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contract_end_date_hint" />
+
+    <EditText
+        android:id="@+id/editTextContractClientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contract_client_id_hint" />
+
+    <Button
+        android:id="@+id/buttonContractRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/buttonContractUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/buttonContractRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_delete" />
+
+    <Button
+        android:id="@+id/buttonContractList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_search" />
+
+    <TextView
+        android:id="@+id/textViewContractOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

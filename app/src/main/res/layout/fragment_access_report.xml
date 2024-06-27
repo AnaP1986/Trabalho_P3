@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextAccessClientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID do Cliente" />
+
+    <EditText
+        android:id="@+id/editTextAccessReportId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID do Relatório" />
+
+    <EditText
+        android:id="@+id/editTextAccessNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número do Acesso" />
+
+    <EditText
+        android:id="@+id/editTextAccessDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data do Acesso" />
+
+    <Button
+        android:id="@+id/buttonAccessRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Acesso" />
+
+    <Button
+        android:id="@+id/buttonAccessUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atualizar Acesso" />
+
+    <Button
+        android:id="@+id/buttonAccessRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remover Acesso" />
+
+    <Button
+        android:id="@+id/buttonAccessList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Acessos" />
+
+    <TextView
+        android:id="@+id/textViewAccessOutput"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+</LinearLayout>
